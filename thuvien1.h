@@ -56,15 +56,16 @@ bool check_SoChinhPhuong(int n){
 		if(i*i==n){
 		return true;
 	    }
-	} return false;
+	} 
+	return false;
 }
 //bai7
-int TinhTong(int n=0,int s=0){
+int TimSo(int s=0,int n=0){
 	while(s<10000){
 		n++;
 		s+=n;
     }
-	return s;
+	return n;
 }
 
 //bai8
