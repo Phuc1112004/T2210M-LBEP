@@ -14,9 +14,8 @@ int bai1(){
 		int sd=n%10;
 		x=x*10+sd;
 		n=n/10;
-	}
+    }
 	printf("so do la:%d",x);
-	return 0;
 }
  
  //bai2
@@ -36,10 +35,10 @@ int bai1(){
 	 }else{
 	 	if(b>c){
 	 			printf("%d la max",b);
-		 }
+		    }
 			printf("%d la max",c);
-	 }
- }
+	    }
+}
  
  //bai3:
  int bai3(){
@@ -55,7 +54,7 @@ int bai1(){
 		x2=x0+x1;
 	}
 	printf("so do la :%d",x2);
- }
+}
 
 //bai4
 int bai4(){
@@ -87,6 +86,8 @@ int bai5(){
     }
   printf("tong la %f ", S);
 }
+
+
  void menu(){
  	int choice;
  	do{
