@@ -12,12 +12,12 @@ int main(){
     printf("nhap x: ");
     scanf("%d",&x);
     for (int i=0; i<n; i++){
-    	if(x==i){
-    		printf ("%d co trong mang",x);
-    		break;
+    	if(ary[i]==x){
+    		printf ("co trong mang");
+    		return 0;
 		}
 	}
-	printf("%d khong co trong mang",x);
+	printf(" khong co trong mang");
 }
 
 
