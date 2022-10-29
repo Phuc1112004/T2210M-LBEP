@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int TongTB(int n,int ary[]){
+float TongTB(int n,int ary[]){
 
 	int d=0,s=0;
 	for(int i=0;i<n;i++){
